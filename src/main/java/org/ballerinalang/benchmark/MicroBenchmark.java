@@ -65,7 +65,7 @@ public class MicroBenchmark {
 
     @State(Scope.Benchmark)
     public static class BallerinaMultple10000 {
-        static BallerinaLauncher ballerinaLauncher = new BallerinaLauncher("run","src/ballerina/multipleArr1000.bal");
+        static BallerinaLauncher ballerinaLauncher = new BallerinaLauncher("run","src/ballerina/multipleArr10000.bal");
     }
 
 
